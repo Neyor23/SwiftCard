@@ -1,0 +1,1 @@
+ALTER TABLE public.gift_card_rates ADD COLUMN IF NOT EXISTS change_pct numeric NOT NULL DEFAULT 0;

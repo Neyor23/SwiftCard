@@ -1,0 +1,2 @@
+ALTER TABLE public.gift_card_rates DROP CONSTRAINT IF EXISTS gift_card_rates_brand_country_card_type_key;
+ALTER TABLE public.gift_card_rates ADD CONSTRAINT gift_card_rates_brand_country_type_receipt_key UNIQUE (brand,country,card_type,receipt_type);

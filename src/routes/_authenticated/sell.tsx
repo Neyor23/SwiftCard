@@ -22,7 +22,7 @@ const COUNTRIES = [
   { code: "US", name: "USA", flag: "🇺🇸", cur: "USD", sym: "$" },
   { code: "UK", name: "UK", flag: "🇬🇧", cur: "GBP", sym: "£" },
   { code: "CA", name: "Canada", flag: "🇨🇦", cur: "CAD", sym: "C$" },
-  { code: "ES", name: "Australia", flag: "🇪🇸", cur: "AUD", sym: "€" },
+  { code: "ES", name: "Spain", flag: "🇪🇸", cur: "ES", sym: "€" },
 ];
 const RECEIPTS = [
   { id: "cash_receipt", label: "Cash receipt" },
